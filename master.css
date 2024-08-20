@@ -1,0 +1,458 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  scroll-behavior: smooth;
+}
+
+a:hover {
+  border-bottom: solid white 2px;
+  color: red;
+}
+
+::selection {
+  background-color: black;
+  color: red;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #35424a;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  line-height: 50px;
+  word-spacing: 3px;
+}
+
+.p1 {
+  font-weight: 600;
+}
+
+p {
+  font-size: 25px;
+  word-spacing: 2px;
+  line-height: 35px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+section {
+  padding: 2rem 1rem;
+  width: 90%;
+  margin: 0 auto;
+  background: #fff;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#home {
+  color: #fff;
+  height: fit-content;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #35424a;
+}
+
+.dua-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: fit-content;
+}
+
+.dua {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 calc(33.333% - 1rem);
+  background: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.duass {
+  display: flex;
+  justify-content: center;
+}
+
+.h1 {
+  padding-right: 10px;
+  border-bottom: 7px solid rgb(0, 0, 0);
+  width: fit-content;
+  font-size: 40px;
+  text-shadow: 1px 1px 1px gold;
+}
+
+.dua p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.donation {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: black;
+  text-shadow: 2px 1px 1px #dfbbbb;
+}
+
+::selection {
+  background-color: black 60%;
+  color: red;
+}
+
+.field {
+  background: linear-gradient(to bottom, #b5b0b084, dimgray);
+  max-width: 600px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  height: fit-content;
+}
+
+.legend {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+  text-shadow: 1px 1px 1px red;
+  font-weight: 700;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.label {
+  font-weight: 700;
+  font-size: 25px;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.tasbeeh-select {
+  width: fit-content;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.tasbeeh-select:hover {
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button {
+  width: 100%;
+  max-width: 200px;
+  height: 50px;
+  background-color: #4caf50;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: #45a049;
+  outline: auto;
+}
+
+.reset-button {
+  background-color: #f44336;
+}
+
+.reset-button:hover {
+  background-color: #d32f2f;
+}
+
+.result {
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.result-text {
+  margin: 0;
+  color: #333;
+  font-weight: bold;
+}
+
+.result-text span {
+  font-size: 24px;
+  color: #666;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.qur {
+  padding-right: 10px;
+  border-bottom: 7px solid rgb(0, 0, 0);
+  width: fit-content;
+  font-size: 40px;
+  text-shadow: 1px 1px 1px gold;
+}
+
+.op {
+  text-shadow: 1px 1px 1px gold;
+  font-size: 27px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 7px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+footer {
+  bottom: -2px;
+  width: 100%;
+  letter-spacing: 3px;
+  text-align: center;
+  padding: 5px;
+  background: #9ea3a7;
+  color: black;
+  margin-top: 1rem;
+  font-size: 20px;
+}
+
+#quran {
+  padding: 2rem 1rem;
+  width: 90%;
+  margin: 0 auto;
+  background: #f9f9f9;
+  /* لون خلفية فاتح */
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  /* حواف دائرية */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  /* ظل ناعم */
+  text-align: center;
+  /* توسيط النص */
+}
+
+audio {
+  background: linear-gradient(135deg, #83a3d4a4, #b6fbff9b);
+  /* تدرج لوني للخلفية */
+  border: none;
+  /* إزالة الحدود الافتراضية */
+  border-radius: 20px;
+  /* الزوايا المدورة */
+  padding: 15px;
+  /* المسافة الداخلية */
+  width: 100%;
+  /* عرض كامل */
+  max-width: 600px;
+  /* الحد الأقصى للعرض */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* الظل */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* التحولات */
+  margin: 20px auto;
+  /* توسيط العنصر */
+}
+
+audio:hover {
+  transform: scale(1.01);
+  /* تكبير العنصر عند التمرير */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  /* تغيير الظل عند التمرير */
+  cursor: pointer;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: transparent;
+  /* جعل الخلفية شفافة لتتناسب مع الخلفية المحسنة */
+  border-radius: 20px;
+  /* الزوايا المدورة */
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-timeline,
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-seek-back-button,
+audio::-webkit-media-controls-seek-forward-button {
+  filter: invert(0);
+  /* تغيير لون الأيقونات */
+}
+
+.importance p {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+    /* تقليل حجم الخط للشاشات الصغيرة */
+  }
+
+  section {
+    padding: 1rem;
+    /* تقليل الهامش للأقسام على الأجهزة الصغيرة */
+  }
+
+  .dua-container {
+    flex-direction: column;
+    /* تغيير توجيه العناصر إلى عمود على الهواتف */
+  }
+
+  .button {
+    max-width: 150px;
+    /* تقليل عرض الأزرار على الشاشات الصغيرة */
+    font-size: 16px;
+    /* تقليل حجم الخط للأزرار على الشاشات الصغيرة */
+  }
+
+  .legend {
+    font-size: 22px;
+    /* تقليل حجم الخط للعنوان الرئيسي على الشاشات الصغيرة */
+  }
+
+  .h1 {
+    padding-top: 30px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .importance p {
+    padding-right: 10px;
+    line-height: 40px;
+  }
+}
+
+/* Media Queries for Responsive Design */
+
+/* Tablets and smaller */
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .main {
+    grid-template-columns: 1fr;
+  }
+
+  .dua {
+    flex: 1 1 100%;
+  }
+
+  .tasbeeh-select {
+    width: 100%;
+  }
+
+  .h1 {
+    margin-top: 30px;
+  }
+}
+
+/* Phones and smaller */
+@media (max-width: 480px) {
+  .header,
+  .qur {
+    font-size: 30px;
+  }
+
+  .op {
+    font-size: 20px;
+  }
+
+  .h1 {
+    margin-top: 30px;
+  }
+}
+
+.tasbeeh-count {
+  margin-top: 10px;
+}
+
+.tasbeeh-info {
+  background-color: white;
+  font-size: 2em;
+  color: #333;
+}
+
+.tasbeeh-info {
+  margin-top: 20px;
+}
+.tasbeeh-info div {
+  margin-bottom: 10px;
+}
